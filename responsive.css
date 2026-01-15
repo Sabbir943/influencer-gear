@@ -47,6 +47,35 @@
 .banner-img{
     width: 90%;
 }
+.logo{
+    
+    /* grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(3,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    border: none;
+    
+    
+    
+}
 
     
+}
+@media screen and (min-width:576px) and (max-width:992px){
+    .logo{
+    
+    /* grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: repeat(3,1fr); */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 100%;
+    border: none;
+    
+    
+    
+    
+}
 }

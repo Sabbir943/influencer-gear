@@ -76,3 +76,17 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.logo{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid #e0dddd;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
