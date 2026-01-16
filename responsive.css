@@ -3,6 +3,7 @@
         width: 100%;
         margin: 0 auto;
         
+        
 
     }
     .display{
@@ -73,6 +74,23 @@
     height: 100%;
     
 }
+.labtop-section{
+   
+   
+    grid-template-columns: repeat(1,1fr);
+    width: 100%;
+    
+}
+.labtop-img img{
+    width: 100%;
+}
+.labtop-content{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 100%;
+}
 
     
 }
@@ -90,5 +108,22 @@
     
     
     
+}
+.labtop-section{
+   
+   
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    
+}
+.labtop-img img{
+    width: 100%;
+}
+.labtop-content{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    height: 100%;
 }
 }
